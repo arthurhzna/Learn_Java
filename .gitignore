@@ -1,0 +1,30 @@
+# Ignore semua file .class (hasil kompilasi Java)
+*.class
+
+# Ignore file log
+*.log
+
+# Ignore file output dari IDE
+*.iml
+*.ipr
+*.iws
+.idea/
+*.swp
+*.swo
+
+# Ignore file output dari build tools
+/target/
+/build/
+/out/
+/bin/
+
+# Ignore file environment
+.env
+
+# Ignore file sistem operasi
+.DS_Store
+Thumbs.db
+
+# Ignore file dependency (jika menggunakan Maven/Gradle)
+.mvn/
+.gradle/
