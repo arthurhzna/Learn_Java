@@ -127,3 +127,30 @@
 
 //     }
 // }
+
+
+//BOXXING AND UNBOXXING   WITH AUTO BOXXING AND AUTO UNBOXXING
+
+
+// public class hello {
+//     public static void main(String[] args) {
+//         System.out.println("Hello, World!");
+
+//         int a = 10;
+//         Integer b = a; //<<-- AUTO BOXXING
+//         System.out.println(b);
+
+//         Integer c = 10;
+//         int d = c; //<<-- AUTO UNBOXXING
+//         System.out.println(d);
+
+//         Integer e = new Integer(10);
+//         int f = e.intValue(); //<<-- EXPLICIT UNBOXXING
+//         System.out.println(f);
+
+//         int g = 10;
+//         Integer h = g; //<<-- AUTO BOXXING
+//         System.out.println(h);
+
+//     }
+// }
