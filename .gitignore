@@ -2,7 +2,7 @@
 *.class
 
 # Ignore file log
-*.log
+*.log 
 
 # Ignore file output dari IDE
 *.iml
