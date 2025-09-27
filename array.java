@@ -71,47 +71,57 @@ public class array {
         //         }
         //     }
         // }   
+        // Student student[] = new Student[3];
+        // student[0] = new Student();
+        // student[0].id = 1;
+        // student[0].name = "John";
+        // student[0].age = 20;
+        // student[1] = new Student();
+        // student[1].id = 2;
+        // student[1].name = "Jane";
+        // student[1].age = 21;
+        // student[2] = new Student();
+        // student[2].id = 3;
+        // student[2].name = "Jim";
+        // student[2].age = 22;
+
+        // Student students[] = new Student[3];
+        // students[0] = student[0];
+        // students[1] = student[1];
+        // students[2] = student[2];
+
+        // for (int i = 0; i < students.length; i++) {
+        //     System.out.println(students[i].id + " " + students[i].name + " " + students[i].age);
+        // }
 
 
-        Student student[] = new Student[3];
-        student[0] = new Student();
-        student[0].id = 1;
-        student[0].name = "John";
-        student[0].age = 20;
-        student[1] = new Student();
-        student[1].id = 2;
-        student[1].name = "Jane";
-        student[1].age = 21;
-        student[2] = new Student();
-        student[2].id = 3;
-        student[2].name = "Jim";
-        student[2].age = 22;
+        // //enhanced for loop
+        // for (Student s : students) {
+        //     System.out.println(s.id + " " + s.name + " " + s.age);
+        // }
 
-        Student students[] = new Student[3];
-        students[0] = student[0];
-        students[1] = student[1];
-        students[2] = student[2];
+        // //stirng object
+        // String name = new String("John");
+        // System.out.println(name);
 
-        for (int i = 0; i < students.length; i++) {
-            System.out.println(students[i].id + " " + students[i].name + " " + students[i].age);
-        }
+        // //immutable string
+        // String name2 = "John";
+        // System.out.println(name2);
+        // //new object string in heap
+        // name2 = name2 + " Doe";
+        // System.out.println(name2);
 
-
-        //enhanced for loop
-        for (Student s : students) {
-            System.out.println(s.id + " " + s.name + " " + s.age);
-        }
-
-        //stirng object
-        String name = new String("John");
-        System.out.println(name);
-
-        //immutable string
-        String name2 = "John";
-        System.out.println(name2);
-        //new object string in heap
-        name2 = name2 + " Doe";
-        System.out.println(name2);
+        //mutable string
+        StringBuilder sb = new StringBuilder("John");
+        System.out.println(sb);
+        System.out.println(sb.capacity());
+        System.out.println(sb.length());
+        sb.append(" Doe");
+        System.out.println(sb);
+        sb.insert(0, "Mr. ");
+        System.out.println(sb);
+        sb.delete(0, 3);
+        System.out.println(sb);
 
     }
 }
