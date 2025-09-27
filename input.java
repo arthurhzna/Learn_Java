@@ -13,13 +13,11 @@
 //         String name = reader.readLine();
 //         System.out.println("Hello, " + name + "!");
 //         } catch (IOException e) {
-//             // TODO Auto-generated catch block
 //             e.printStackTrace();
 //         } finally {
 //             try {
 //                 reader.close();
 //             } catch (IOException e) {
-//                 // TODO Auto-generated catch block
 //                 e.printStackTrace();
 //             }
 //         }
